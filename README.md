@@ -12,7 +12,7 @@
 
 ## 🔑 Key Features
 
-### 1. Three-Level Authentication
+## Three-Level Authentication
 
 - **Patient Login**: 
   - Patients can sign up, log in, and book appointments with doctors.
