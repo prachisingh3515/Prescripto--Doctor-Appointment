@@ -1,13 +1,13 @@
 # Prescripto - Doctor Appointment Web App
 
-**Prescripto** is a full-stack web application designed to make healthcare more accessible by simplifying the process of booking doctor appointments. It offers three levels of login: **Patient**, **Doctor**, and **Admin**, each with distinct features tailored to their roles. The app integrates **online payment gateways (Stripe and Razorpay)** to facilitate seamless and secure payments. Built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js), Prescripto provides an efficient, user-friendly experience for both patients and healthcare providers.
+**Prescripto** is a full-stack web application designed to make healthcare more accessible by simplifying the process of booking doctor appointments. It offers three levels of login: **Patient**, **Doctor**, and **Admin**, each with distinct features tailored to their roles. The app integrates **online payment gateway (Razorpay)** to facilitate seamless and secure payments. Built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js), Prescripto provides an efficient, user-friendly experience for both patients and healthcare providers.
 
 ## 🛠️ Tech Stack
 
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Payment Gateways**: Stripe, Razorpay
+- **Payment Gateways**: Razorpay
 - **Authentication**: JSON Web Token (JWT)
 
 ## 🔑 Key Features
@@ -106,65 +106,6 @@
 
 - Supports multiple payment methods:
   - **Cash Payment**
-  - **Stripe Integration**
   - **Razorpay Integration**
 - Ensures a secure and smooth payment experience for users.
-
-## 🌐 Project Setup
-
-To set up and run this project locally:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/prescripto.git
-   cd prescripto
-   ```
-
-2. **Install Dependencies**:
-   ```bash
-   npm install
-   cd client
-   npm install
-   ```
-
-3. **Environment Variables**:
-   - Create a `.env` file in the root directory and add the following:
-     ```env
-     MONGO_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret
-     STRIPE_API_KEY=your_stripe_api_key
-     RAZORPAY_API_KEY=your_razorpay_api_key
-     ```
-
-4. **Run the Application**:
-   ```bash
-   npm run dev
-   ```
-
-## 📦 Folder Structure
-
-```plaintext
-prescripto/
-├── client/          # Frontend (React.js)
-├── server/          # Backend (Node.js, Express.js)
-├── models/          # MongoDB Schemas
-├── controllers/     # API Controllers
-├── routes/          # API Routes
-├── middleware/      # Authentication and Error Handling
-├── config/          # Configuration Files
-├── utils/           # Utility Functions
-├── public/          # Static Files
-└── .env             # Environment Variables
-```
-
-## 🤝 Contributing
-
-We welcome contributions! Please feel free to submit issues, fork the repository, and open pull requests.
-
-
-## 🌟 Acknowledgements
-
-- Thanks to the developers and contributors of MongoDB, Express.js, React.js, Node.js, Stripe, and Razorpay for their fantastic tools and libraries.
-
----
 
